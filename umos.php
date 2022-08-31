@@ -7,6 +7,7 @@ if (!$ownid) if ($userid) $ownid=$userid;
 //if( (!$gsuperid) or (!$_SESSION["loggedin"] !== true){
 // header("location: welcome.php");
 //}
+111
 $submit=$_GET['submit'];
 //$modeu=$GET['modeu'];//set modeu alert
 $percent=number_format(($submit/$registered)*100,2);
